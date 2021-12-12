@@ -28,8 +28,8 @@
    margin-left: 16.5px;
    margin-right: 15.5px;
    border-radius: 8px;
-   align-self: center;
-       
+   align-self: center;    
+   padding-bottom: 24px;   
 }
 
 
@@ -59,8 +59,107 @@
     font-weight: 500;
     width: 329px;
     height: 80px;
-    
-        
  
 }
 
+
+
+.aboutme-skills.aboutme-skills-cards{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    color: white ;
+    margin-left: 15px;
+    margin-left: 15px;
+
+
+    
+    
+
+}
+
+.aboutme-skills.aboutme-skills-cards.aboutme-skills.aboutme-skills-cards-TAG{
+    max-width:90%;
+    padding-left: 24px;
+    padding-bottom: 24px;
+    padding-top: 2px;
+    font-family: sans-serif ;
+    background-color: #1C1E22;
+
+}
+
+#skill-title{
+    padding-top: 12px;
+    align-self: center;
+    margin-bottom: 32px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 64px;
+    padding-top:32px;
+    padding-left: 129px;
+    padding-right: 129px;
+    margin-bottom: 53px;
+}
+
+.link-link{
+    order: 1;
+}
+
+.link-logo{
+    order: 2;
+        
+}
+
+#link-link-1{
+    font-size: 32px;
+}
+
+#link-link-2{
+    font-size: 16px;
+    color:#85BFD1;
+    
+}
+
+#link-link-3{
+    font-size: 14px;
+    color:#FFFFFF;
+}
+
+#link-link-4{
+    font-size: 16px;
+    color:#85BFD1;
+}
+
+#link-link-5{
+    font-size: 16px;
+    color:#FFFFFF;
+}
+
+#link-link-5{
+    font-size: 16px;
+    color:#85BFD1;
+}
+
+.separator{
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    width: 328px;
+    margin-top: 5px;
+
+ 
+}
+.footer.footer-logo{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    color: white;
+    
+}
